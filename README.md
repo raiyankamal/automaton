@@ -7,16 +7,19 @@ A bunch of bash scripts that help carry out simple tasks as a developer in an Ub
 # How to Use
 
 ### setup/setup_python_dev_environment.sh
+
 Installs python, PIP and django.
-Usage:
+
+#### Usage
 `$ setup_python_dev_environment.sh`
-Parameters:
+
+#### Parameters:
 none
 
 ### tasks/start_django_project.sh
 Starts a django project and one or more applications within the project
-Usage:
+#### Usage
 `$ start_django_project.sh project_name [list_of_application_names]`
-Parameters:
+#### Parameters
 	- project_name:	name of the django project
 	- list_of_application_names: a list of applications to be created within the project, optional
