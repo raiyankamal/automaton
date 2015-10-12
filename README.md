@@ -21,5 +21,5 @@ Starts a django project and one or more applications within the project
 #### Usage
 `$ start_django_project.sh project_name [list_of_application_names]`
 #### Parameters
-	- project_name:	name of the django project
-	- list_of_application_names: a list of applications to be created within the project, optional
+- `project_name`:	name of the django project
+- `list_of_application_names`: a space delimited list of application names, optional
